@@ -1,0 +1,12 @@
+class person 
+{
+  constructor(name, age, address, sex, occupation )
+   {
+     this.name=name;
+    this.age=age;
+     this.address=address;
+     this.sex=sex;
+     this.occupation=occupation;
+  }
+ }
+const person1= new person ("rahul",23, "xyz", "male" , "content creator");
